@@ -1,0 +1,246 @@
+body {
+  font-family: "Lato", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.portfolio-item {
+  height: 17.5em;
+  width: 100%;
+}
+
+.about-section {
+  background-color: #706fd3;
+}
+
+.btn:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.image-portfolio {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/project2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-portfolio:hover {
+  background-image: url("../img/project1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-facebook {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/facebook2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-facebook:hover {
+  background-image: url("../img/facebook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.image-tic {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/tictactoe2.jpg");
+  background-size: 490px 285px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-tic:hover {
+  background-image: url("../img/tictactoe.jpg");
+  background-size: 490px 285px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-sample {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/sample-app.jpg");
+  background-size:  560px 280px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.image-sample:hover {
+  background-image: url("../img/sampleapp2.png");
+  background-size:  560px 280px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.image-deep {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/depp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-deep:hover {
+  background-image: url("../img/depp2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.image-next {
+  border-radius: 5px;
+  height: 17.5em;
+  background-image: url("../img/next.jpg");
+  background-size: 520px 278px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.image-next:hover {
+  background-image: url("../img/next2.jpg");
+  background-size: 520px 278px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.image-article {
+  margin: 0 auto;
+  height: 20em;
+  width: 30%;
+  background-image: url("../img/article.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+}
+
+.image-article:hover {
+  background-image: url("../img/article2.jpg");
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: 0.85rem 1rem;
+  border: 2px #aaa;
+  background-color: #aaa;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 145px;
+  border-radius: 5px;
+  text-decoration: none;
+  color:black;
+}
+
+.button:hover {
+  opacity: 0.85;
+  transition: all 0.4s ease 0s;
+  color: black;
+  text-decoration: none;
+}
+
+.btn2 {
+  border: 2px solid black;
+  padding: 1rem 1rem;
+  height: 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn2:hover {
+  color: white !important;
+  background-color: #4169e1;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.b-t-t a {
+  height: 55px;
+}
+
+.b-t-t a {
+  display: inline-block;
+}
+
+.divider-custom {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+
+.divider-custom i {
+  font-size: 30px;
+  color: black;
+}
+
+.divider-custom.divider-light .divider-custom-line {
+  background-color: black;
+}
+
+.skills {
+  border: 2px solid #6495ed;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.article a {
+  text-decoration: none;
+  color: black;
+}
+
+.article a:hover {
+  text-decoration: none;
+  color: #6495ed;
+}
+
+.article p{
+  width: 50%;
+  margin: 0 auto
+}
+
+footer {
+  background-color: #706fd3;
+  height: 3em;
+}
