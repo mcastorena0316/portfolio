@@ -10,9 +10,9 @@
 
   <title>Hello friend!</title>
   <link rel="shortcut icon" type="image/ico" href="img/robot_Jtg_icon.ico" />
-
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
@@ -53,7 +53,7 @@
   <!-- Contact Section -->
   <section class= "text-center">
     <h2 class="text-uppercase mt-2 mb-2">Lets Talk!</h2>
-    <div class="mb-5 mb-lg-0 text-center d-flex justify-content-center" >
+    <div class="mb-5 mb-lg-0 text-center d-flex flex-wrap justify-content-center" >
       <a class="btn mx-1" href="https://github.com/mcastorena0316" target="_blank">
         <img src="https://img.icons8.com/nolan/64/github.png" alt="github">
       </a>
@@ -75,10 +75,10 @@
       <h2 class="text-center text-uppercase mt-3">My Recent Work</h2>
       <div class="row">
         <!-- Portfolio Item 1 -->
-        <div class="card portfolio-item d-flex mb-3 mt-2">
+        <div class=" card col-md-12 order-md-1 portfolio-item d-flex mb-3 mt-2">
           <div class="row no-gutters">
-            <div class= "col-lg-5 image-portfolio"></div>
-            <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
+            <div class= "col-md-12  col-lg-5 image-portfolio"></div>
+            <div class= "col-md-12  col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2 project-info">
               <h4 class="card-title mt-2 pt-2 title-project">NEWSWEEK-CLONE</h4>
               <p class="card-text">In this project, I was requested to build a replica of the news site <a href="https://www.newsweek.com/" target="_blank">Newsweek.com </a> using the framework Bootstrap.</p>
               <div class="d-flex mb-2">
@@ -92,16 +92,15 @@
               </div>
             </div>
           </div>
-        </div>
-        
+        </div>  
         <!-- Portfolio Item 2 -->
-          <div class="card portfolio-item d-flex mb-3 mt-3">
+        <div class=" card col-md-12 order-md-2 portfolio-item d-flex mb-3 mt-2">
             <div class="row no-gutters">
-              <div class= "col-lg-5 image-facebook"></div>
+              <div class= "col-md-12 col-lg-5 image-facebook"></div>
               <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
                 <h4 class="card-title mt-2 pt-2 title-project">FACEBOOK-CLONE</h4>
                 <p class="card-text">In this project, we were requested to build a Facebook-like social network application including some of the core features of this social media: users, profiles, friendships, posts, news-feed, and likes. </p>
-                <div class="d-flex mb-2">
+                <div class="d-flex flex-wrap mb-2">
                   <p class= "m-2 skills">Ruby</p>
                   <p class= "m-2 skills">Ruby on Rails</p>
                   <p class= "m-2 skills">Capybara</p>
@@ -118,7 +117,7 @@
             </div>
           </div>
         <!-- Portfolio Item 3 -->
-        <div class="card portfolio-item d-flex mb-3 mt-3">
+        <div class=" card col-md-12 order-md-3 portfolio-item d-flex mb-3 mt-2">
           <div class="row no-gutters">
             <div class= "col-lg-5 image-tic"></div>
             <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
@@ -135,13 +134,13 @@
           </div>
         </div>
         <!-- Portfolio Item 4 -->
-        <div class="card portfolio-item d-flex mb-3 mt-3">
+        <div class=" card col-md-12 order-md-4 portfolio-item d-flex mb-3 mt-2">
           <div class="row no-gutters">
             <div class= "col-lg-5 image-sample"></div>
             <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
               <h4 class="card-title mt-2 pt-2 title-project">SAMPLE APP</h4>
-              <p class="card-text"> This project consists of a sample twitter-like application following: <a href="https://www.railstutorial.org/" href="">on Rails Tutorial: Learn Web Development with Rails</a> by Michael Hartl. It includes the next features: users sign in with authentication, log in with validation, profiles, followers and following, micro-posts with images, among others.</p>
-               <div class="d-flex ">
+              <p class="card-text"> This project consists of a sample twitter-like application following: <a href="https://www.railstutorial.org/" target="_blank">on Rails Tutorial: Learn Web Development with Rails</a> by Michael Hartl. It includes the next features: users sign in with authentication, log in with validation, profiles, followers and following, micro-posts with images, among others.</p>
+               <div class="d-flex flex-wrap">
                 <p class= "m-2 skills">Ruby</p>
                 <p class= "m-2 skills">Ruby on Rails</p>
                 <p class= "m-2 skills">SaaS</p>
@@ -149,7 +148,7 @@
                 <p class= "m-2 skills">Heroku</p>
                 <p class= "m-2 skills">SQLite</p>
               </div>
-              <div>
+              <div class>
                 <a class="button text-center" href="https://pacific-plateau-91098.herokuapp.com/" target="_blank">Live Demo</a>                 
                 <a class="btn2 ml-2" href="https://github.com/mcastorena0316/sample_app" target="_blank">View on Github</a>
               </div>
@@ -157,7 +156,7 @@
           </div>
         </div>
         <!-- Portfolio Item 5 -->
-        <div class="card portfolio-item d-flex mb-3 mt-3">
+        <div class=" card col-md-12 order-md-5 portfolio-item d-flex mb-3 mt-2">
           <div class="row no-gutters">
           <div class= "col-lg-5 image-deep"></div>
           <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
@@ -179,7 +178,7 @@
           </div>
         </div>
         <!-- Portfolio Item 6 -->
-        <div class="card portfolio-item d-flex mb-3 mt-3">
+        <div class=" card col-md-12 order-md-6 portfolio-item d-flex mb-3 mt-2">
           <div class="row no-gutters">
             <div class= "col-lg-5 image-next"></div>
             <div class= "col-lg-7 d-flex flex-column justify-content-between pl-2 mb-2">
@@ -209,7 +208,7 @@
   <div class= "text-center article mb-4">
     <h4 class= "underscore">Understanding (And Making Your Life Easier) With Bootstrap</h4>
     <p class= "mb-2">In this article, I describe the basics of the framework Bootstrap, I explained briefly how the nomenclature of classes work and the 12 column grid system it uses with an example of how to implement it in 3 media queries.</p>
-    <div class="image-article"></div>
+    <div class="col-12 image-article"></div>
     <h4 class= "mt-2 mb-1">Published in:</h4>
     <div class= "d-flex justify-content-center">
       <h4><a href="https://hackernoon.com/understanding-and-making-your-life-easier-with-bootstrap-nnr2gpb" target="_blank">Hackernoon</a> && </h4> 

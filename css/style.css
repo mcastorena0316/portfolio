@@ -7,12 +7,12 @@ a {
   color: black;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
 }
 
 .portfolio-item {
-  height: 17.5em;
+  max-height: 100em;
   width: 100%;
 }
 
@@ -56,19 +56,18 @@ a:hover{
   background-position: center center;
 }
 
-
 .image-tic {
   border-radius: 5px;
   height: 17.5em;
   background-image: url("../img/tictactoe2.jpg");
-  background-size: 490px 285px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .image-tic:hover {
   background-image: url("../img/tictactoe.jpg");
-  background-size: 490px 285px;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -77,14 +76,14 @@ a:hover{
   border-radius: 5px;
   height: 17.5em;
   background-image: url("../img/sample-app.jpg");
-  background-size:  560px 280px;
+  background-size: 570px 100%;
   background-repeat: no-repeat;
   background-position: left center;
 }
 
 .image-sample:hover {
   background-image: url("../img/sampleapp2.png");
-  background-size:  560px 280px;
+  background-size: 570px 100%;
   background-repeat: no-repeat;
   background-position: left center;
 }
@@ -93,14 +92,14 @@ a:hover{
   border-radius: 5px;
   height: 17.5em;
   background-image: url("../img/depp.jpg");
-  background-size: cover;
+  background-size: 530px 100%;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .image-deep:hover {
   background-image: url("../img/depp2.jpg");
-  background-size: cover;
+  background-size: 530px 100%;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -123,8 +122,9 @@ a:hover{
 
 .image-article {
   margin: 0 auto;
-  height: 20em;
-  width: 30%;
+  max-height: 50em;
+  min-height: 20em;
+  width: 100%;
   background-image: url("../img/article.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -146,13 +146,13 @@ a:hover{
   padding: 0.85rem 1rem;
   border: 2px #aaa;
   background-color: #aaa;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   cursor: pointer;
-  width: 145px;
+  width: 100px;
   border-radius: 5px;
   text-decoration: none;
-  color:black;
+  color: black;
 }
 
 .button:hover {
@@ -166,8 +166,8 @@ a:hover{
   border: 2px solid black;
   padding: 1rem 1rem;
   height: 24px;
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -181,9 +181,6 @@ a:hover{
 
 .b-t-t a {
   height: 55px;
-}
-
-.b-t-t a {
   display: inline-block;
 }
 
@@ -235,12 +232,89 @@ a:hover{
   color: #6495ed;
 }
 
-.article p{
-  width: 50%;
-  margin: 0 auto
+.article p {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 footer {
   background-color: #706fd3;
   height: 3em;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio-item {
+    max-height: 35em;
+    padding: 0;
+  }
+
+  .button {
+    width: 145px;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .btn2 {
+    padding: 1rem 1rem;
+    height: 24px;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .image-portfolio {
+    width: 100%;
+  }
+
+  .image-sample,
+  .image-sample:hover,
+  .image-next,
+  .image-next:hover {
+    background-size: cover;
+  }
+
+  .image-tic {
+    background-size: 490px 285px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-tic:hover {
+    background-size: 490px 285px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .image-deep {
+    background-image: url("../img/depp.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .image-deep:hover {
+    background-image: url("../img/depp2.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .article p {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .portfolio-item {
+    max-height: 18em;
+    width: 100%;
+  }
+
+  .image-article {
+    margin: 0 auto;
+    height: 20em;
+    width: 30%;
+    background-image: url("../img/article.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+  }
 }
