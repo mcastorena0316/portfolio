@@ -141,18 +141,23 @@ a:hover {
 }
 
 .button {
-  display: inline-block;
-  margin: 0;
-  padding: 0.85rem 1rem;
   border: 2px #aaa;
   background-color: #aaa;
+  padding: 0.85rem 1rem;
+}
+
+.button , .btn2 {
+  display: inline-block;
+  margin: 0;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   cursor: pointer;
-  width: 100px;
+  min-width: 85px;
+  max-width: 120px;
   border-radius: 5px;
   text-decoration: none;
   color: black;
+  line-height: 1em;
 }
 
 .button:hover {
@@ -164,12 +169,8 @@ a:hover {
 
 .btn2 {
   border: 2px solid black;
-  padding: 1rem 1rem;
-  height: 24px;
-  font-weight: 600;
-  font-size: 0.8rem;
-  cursor: pointer;
-  border-radius: 5px;
+  padding: .85rem 1rem;
+ 
 }
 
 .btn2:hover {
@@ -180,7 +181,7 @@ a:hover {
 }
 
 .b-t-t a {
-  height: 55px;
+  max-height: 55px;
   display: inline-block;
 }
 
@@ -239,7 +240,7 @@ a:hover {
 
 footer {
   background-color: #706fd3;
-  height: 3em;
+  max-height: 3.5em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -248,17 +249,14 @@ footer {
     padding: 0;
   }
 
-  .button {
-    width: 145px;
+  .button, .btn2 {
+    max-width: 150px;
     font-weight: 700;
     font-size: 1rem;
   }
 
   .btn2 {
-    padding: 1rem 1rem;
-    height: 24px;
-    font-weight: 700;
-    font-size: 1rem;
+    max-height: 44px;
   }
 
   .image-portfolio {
